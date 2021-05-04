@@ -67,7 +67,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, "-h", "32", NULL };
 static const char *termcmd[]  = { "kitty", NULL};
-static const char *roficmd[]  = { "rofi", "-show", "combi", "NULL" };
+static const char *roficmd[]  = { "rofi", "-show", "drun", "NULL" };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
